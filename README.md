@@ -28,7 +28,7 @@ Screen-shots of application:-
 
 1. Flash Intro Page:
 
-<img src="https://user-images.githubusercontent.com/71179766/120666062-e971d280-c4a9-11eb-8699-33a7e8fe248a.jpg" alt="Flash_intro" width="300" height="500" class="center"/>
+<img src="https://user-images.githubusercontent.com/71179766/120666062-e971d280-c4a9-11eb-8699-33a7e8fe248a.jpg" alt="Flash_intro" width="300" height="550" class="center"/>
 
 2. Home-Page Intro:
 
