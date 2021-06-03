@@ -1,8 +1,8 @@
 # BEC_ClassRoom
 Android application for classroom activities
 
--> It as android application built on kotlin (back-end) and xml (front-end).
--> For data managment i have used Fire-Base.
+-> It as android application built on kotlin (back-end) and xml (front-end).</br>
+-> For data managment i have used Fire-Base.</br>
 -> Basically the app consist of 3 main modules:-
    1. Admin
    2. Staff
