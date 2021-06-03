@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".StartQuiz">
+
+    <LinearLayout
+        android:id="@+id/show_start_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/start_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="START QUIZ" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/show_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/quiz_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="90dp"
+            android:text="Quiz name"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quiz_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="QUESTION"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/quiz_option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/default_option"
+            android:padding="10dp"
+            android:text="Option1"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quiz_option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/default_option"
+            android:padding="10dp"
+            android:text="Option2"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quiz_option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/default_option"
+            android:padding="10dp"
+            android:text="Option3"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quiz_option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/default_option"
+            android:padding="10dp"
+            android:text="Option4"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/quiz_next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NEXT" />
+
+        <Button
+            android:id="@+id/quiz_submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

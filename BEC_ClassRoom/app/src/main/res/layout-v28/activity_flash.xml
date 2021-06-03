@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#99CC00"
+    tools:context=".FlashActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/self_learn_by_bec_qunitent"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+</LinearLayout>

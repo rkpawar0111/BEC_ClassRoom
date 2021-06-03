@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".IntroActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/quintet"
+        android:textColor="#99CC00"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/intro_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="60dp"
+            android:text="@string/admin" />
+
+        <Button
+            android:id="@+id/intro_staff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="60dp"
+            android:text="@string/staff" />
+
+        <Button
+            android:id="@+id/intro_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:height="60dp"
+            android:text="@string/student" />
+    </LinearLayout>
+</LinearLayout>

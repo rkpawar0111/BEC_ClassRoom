@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".CreateQuiz">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/quiz_model"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/quiz_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/enter_quiz_name"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorHint="@android:color/holo_green_light"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/quiz_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:hint="@string/enter_question"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorHint="@android:color/holo_green_light"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/quiz_option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/option1"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorHint="@android:color/holo_green_light"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/quiz_option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/option2"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorHint="@android:color/holo_green_light"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/quiz_option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/option3"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorHint="@android:color/holo_green_light"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/quiz_option4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/option4"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorHint="@android:color/holo_green_light"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/quiz_correct_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/correct_option_enter_option_number"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorHint="@android:color/holo_green_light"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/quiz_add_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/add_question_to_list"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <Button
+            android:id="@+id/quiz_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/submit_the_quiz"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+    </LinearLayout>
+
+</LinearLayout>
